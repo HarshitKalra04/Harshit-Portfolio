@@ -308,9 +308,7 @@ function App() {
                 <Linkedin size={17} /> LinkedIn
               </a>
 
-              <a href="https://mail.google.com/mail/?view=cm&fs=1&to=kalra.harshit04@gmail.com"
-                 target="_blank"
-                 rel="noreferrer">
+              <a href="mailto:kalra.harshit04@gmail.com">
                 <Mail size={17} /> Email
               </a>
             </div>
@@ -569,9 +567,7 @@ function App() {
             </p>
 
             <a
-              href="https://mail.google.com/mail/?view=cm&fs=1&to=kalra.harshit04@gmail.com"
-              target="_blank"
-              rel="noreferrer"
+              href="mailto:kalra.harshit04@gmail.com"
               className="button button-light contact-button"
             >
               Start a conversation <Mail size={17} />
