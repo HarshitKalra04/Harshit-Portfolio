@@ -182,36 +182,3 @@
     border-right-color: var(--border);
   }
 }
-/* Visible floating animation for the hero code card */
-
-@keyframes code-float {
-  0%,
-  100% {
-    transform: rotate(-2deg) translateY(0);
-  }
-
-  50% {
-    transform: rotate(-2deg) translateY(-12px);
-  }
-}
-
-@keyframes status-pulse {
-  0%,
-  100% {
-    transform: scale(1);
-    opacity: 1;
-  }
-
-  50% {
-    transform: scale(1.45);
-    opacity: 0.55;
-  }
-}
-
-.code-window {
-  animation: code-float 4s ease-in-out infinite;
-}
-
-.availability span {
-  animation: status-pulse 1.8s ease-in-out infinite;
-}
