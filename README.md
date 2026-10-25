@@ -1,16 +1,56 @@
-# React + Vite
+# Harshit Kalra | Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Personal portfolio website showcasing my projects, experience, skills, certifications and leadership activities as a Data Science graduate focused on AI/ML and Generative AI.
 
-Currently, two official plugins are available:
+**Live site:** https://harshit-portfolio-vert.vercel.app
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+<!-- TODO: add a screenshot: ![Portfolio](docs/portfolio.png) -->
 
-## React Compiler
+## Sections
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- About
+- Skills
+- Projects
+- Experience
+- Certifications
+- Leadership
+- Contact, plus a downloadable resume
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Vite
+- Lucide React (icons)
+- Deployed on Vercel
+
+## Run Locally
+
+```bash
+git clone https://github.com/HarshitKalra04/Harshit-Portfolio.git
+cd Harshit-Portfolio
+npm install
+npm run dev
+```
+
+Open the URL Vite prints (usually http://localhost:5173).
+
+Other commands:
+
+```bash
+npm run build     # production build
+npm run preview   # preview the production build
+```
+
+## Project Structure
+
+```
+public/          # favicon and resume PDF
+src/
+  App.jsx        # page content and sections
+  App.css        # styles
+  main.jsx       # app entry point
+```
+
+## Updating the Resume
+
+Replace `public/Resume_HarshitKalra.pdf` with the new file, keeping the same file name.
